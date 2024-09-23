@@ -244,7 +244,7 @@
 }
 .presentation-head__item-title {
     font-weight: 700;
-    font-size: 16px;
+    font-size: 21px;
     color: #7389BE;
     margin-bottom: 4px;
     text-transform: uppercase;
@@ -319,7 +319,7 @@
     color: #000000;
     margin-bottom: 10px;
 }
-.slider-slide-item-img {
+.slider-slide-item-img picture {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -505,10 +505,10 @@
         margin-bottom: 4px;
     }
     .slider-slide-title {
-        font-size: 10px;
+        font-size: 9px;
     }
     .slider-slide-item-title {
-        font-size: 9px;
+        font-size: 8px;
         margin-bottom: 4px;
     }
     .slider-slide-item-bottom {
