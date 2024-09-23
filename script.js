@@ -97,12 +97,10 @@ $(".presentation-head__item-box").each(function (index) {
 
     $(window).scroll(function() {
         activateSection();
-        setStyles();
     });
 
     $(window).resize(function() {
         activateSection();
-        setStyles();
     });
 });
 
