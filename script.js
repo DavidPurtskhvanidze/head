@@ -58,7 +58,6 @@ $(".presentation-head__item-box").each(function (index) {
     let lineEl = svgEl.find("line");
     svgEl.appendTo(".presentation-head");
     let faceSegmentNet = $("#" + faceSegments[index].faceNet);
-    let faceSegmentNet1 = $("#" + faceSegments[index].faceNet + index);
     let faceSegmentColor = $("#" + faceSegments[index].faceColor);
 
     function setStyles() {
@@ -82,15 +81,13 @@ $(".presentation-head__item-box").each(function (index) {
             section.addClass("active");
             setStyles();
             lineEl.attr("stroke", "#000");
-            faceSegmentNet1.css("display", "block");
-            faceSegmentNet.css("opacity", "0");
+            faceSegmentNet.css("opacity", "1");
             faceSegmentColor.css("opacity", "1");
         } else {
             section.removeClass("active");
             setStyles();
             lineEl.attr("stroke", "#C6C6C6");
-            faceSegmentNet1.css("display", "none");
-            faceSegmentNet.css("opacity", "1");
+            faceSegmentNet.css("opacity", "0");
             faceSegmentColor.css("opacity", "0");
         }
     }
